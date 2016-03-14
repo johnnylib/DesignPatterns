@@ -1,10 +1,10 @@
 <?php 
-//冒泡排序
+//选择排序
 
 
 function selectionSort(){
 
-	$arr = array(3,19,56,20,2,204,97);
+	$arr = array(3,19,56,20,2,204,97,19);
 	$len = count($arr);
 	
 	echo "<br />排序前:  ";
